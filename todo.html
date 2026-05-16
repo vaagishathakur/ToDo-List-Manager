@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>Todo List Manager</title>
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <h1 id="main-heading">Todo List</h1>
+
+        <div class="todo-grid">
+
+            <input 
+                id="todo-ip" 
+                type="text" 
+                placeholder="Enter task"
+            >
+
+            <input 
+                id="todo-date" 
+                type="date"
+            >
+
+            <button 
+                class="add-btn"
+                onclick="addTodo();"
+            >
+                Add
+            </button>
+
+        </div>
+
+        <div class="todo-container"></div>
+
+    </div>
+
+    <script src="todo.js"></script>
+
+</body>
+</html>
